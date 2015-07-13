@@ -7,7 +7,7 @@ $wgExtensionCredits['other'][] = array(
 	'name'           => 'IA New User Hook',
 	'version'        => '2',
 	'author'         => 'IAIT - DID',
-	'url'            => 'http://www.mediawiki.org/wiki/Extension:IA_AddUserHook',
+	'url'            => 'http://www.mediawiki.org/wiki/Extension:IA_AddUserHook', #we never did create this page as we thought this did not work very well as an external extension
 	'description'    => 'This custom extension tests hooking into the add new user event',
 	'descriptionmsg' => 'This custom extension creates a profile and populates it with LDAP data on first login',
 );
